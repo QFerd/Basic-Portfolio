@@ -1,0 +1,110 @@
+html {
+
+}
+
+body {
+    background: url(../images/gray_jean.png);
+
+}
+.name {
+    background: #4aaaa5;
+    padding: 5px 20px;
+}
+
+h1 {
+    color: #4aaaa5;
+    border-bottom: 3px solid gray;
+}
+
+p {
+    color: #777777;
+}
+
+input {
+    width: 90%;
+}
+
+.submit {
+    width: auto;
+}
+
+textarea {
+    width: 90%;
+}
+
+section {
+    background: #ffffff;
+    margin: 30px 20%;
+    padding: 10px;
+    
+    
+}
+
+/* Portfolio cards */
+.portfolio-card-box {
+
+    display: flex;
+    flex-flow: column wrap;
+    height: 525px;
+
+}
+
+.portfolio-card {
+    display: flex;
+    flex-flow: column;
+    justify-content:flex-end;
+    margin: 10px;
+    height: 150px;
+    width: 175px;
+
+    text-align: center;
+    vertical-align: bottom;   
+}
+
+#hangman {
+    background-image: url("https://loremflickr.com/g/320/240/paris");
+    background-size: cover;
+}
+#trivia-game {
+    background-image: url("https://loremflickr.com/320/240/brazil,rio");
+    background-size: cover;
+}
+
+#rock-paper-scissors {
+    background-image: url("https://loremflickr.com/g/320/240/paris,girl/all");
+    background-size: cover;
+}
+
+#rpg-game {
+    background-image: url("https://loremflickr.com/320/240/dog");
+    background-size: cover;
+}
+
+#rutgers-info-widget {
+    background-image: url("https://loremflickr.com/320/240");
+    background-size: cover;
+}
+
+.portfolio-card-title {
+ padding: 10px 5px;
+ background-color: #4aaaa5;
+ color: white;
+ margin-bottom: 10px;
+
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    color: lightgray;
+    background: #666666;
+    border-top: 5px solid #4aaaa5;
+}
+
+footer p {
+    height: 20px;
+}
+
